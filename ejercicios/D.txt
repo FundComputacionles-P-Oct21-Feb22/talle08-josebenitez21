@@ -1,0 +1,22 @@
+//D. Dados un arreglo
+//Imprimir todos los valores del arreglo que pertencen a un índice par mayor o igual a 2
+1.Inicio
+2.arreglo(5), i[0-n]
+3.arreglo[0] <-- 10
+4.arreglo[1] <-- 9
+5.arreglo[2] <-- 20
+6.arreglo[3] <-- 29
+7.arreglo[4] <-- 100
+8.cadenaFinal, x(100)[{1-100}, {BS} 
+9.//ciclo para
+10.Para(indice <-- 0, indice < 5, 1) haga
+11.	Si (indice >= 2) AND (indice MOD 2 = 0) entonces 
+12		//cadena que va a acumular los valores
+13.		cadenaFinal <--cadenaFinal + "\n" + arreglo[indice] 
+14.Fin si
+15.Fin para
+16.Escribir cadenaFinal 
+17.Fin
+
+
+
